@@ -62,14 +62,14 @@ tmux new -t <name> -- create new session name
 
 note: ctrl+c to cancel ctrl+d to close term 
 
-xpanes -c "ping {}" 192.168.0.{1..9}
+```xpanes -c "ping {}" 192.168.0.{1..9}```
 
 
 ssh admin@transcoder-agent-00.awsusw2.subsplash.net
 
 ### ssh to 16 servers and control them all
 
-xpanes -l ev -c 'ssh admin@{}.awsusw2.subsplash.net' transcoder-agent-{00..16}
+```xpanes -l ev -c 'ssh admin@{}.awsusw2.subsplash.net' transcoder-agent-{00..16}```
 
 
 
