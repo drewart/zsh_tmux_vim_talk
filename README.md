@@ -1,8 +1,8 @@
 
 # repo for zsh tmux and vim talk
 
-[zsh notes](/drewart/zsh_tmux_vim_talk/blob/master/zsh/notes.md)
+[zsh notes](https://github.com/drewart/zsh_tmux_vim_talk/blob/master/zsh/notes.md)
 
-[tmux notes](/drewart/zsh_tmux_vim_talk/blob/master/tmux/notes.md)
+[tmux notes](https://github.com/drewart/zsh_tmux_vim_talk/blob/master/tmux/notes.md)
 
-[vim notes](/drewart/zsh_tmux_vim_talk/blob/master/vim/notes.md)
+[vim notes](https://github.com/drewart/zsh_tmux_vim_talk/blob/master/vim/notes.md)
