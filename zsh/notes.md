@@ -1,16 +1,18 @@
 # term
 
-CMD + { - cycle tabs left
-CMD + } - cycle tabs right 
+CMD + {     - cycle tabs left
 
-CMD + t - new table
+CMD + }     - cycle tabs right 
 
-set -o vi
-    - search history ESC / ? n p  
+CMD + t     - new table
 
-{00..15}
+set -o vi    
 
-ctrl+d - disconnect
+- search history ESC / ? n p  
+
+{00..15}    - text expantion
+
+ctrl+d  - disconnect
 
 # zsh
 
@@ -34,9 +36,3 @@ plugins
 
 ctrl+c
 output failure
-
-
-
-
-
-
