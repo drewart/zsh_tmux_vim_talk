@@ -1,6 +1,10 @@
 
 # tmux 
 
+## install
+
+```brew install tmux```
+
 Session -> Windows -> Pane
 
 ctrl+b  - prefix
@@ -8,26 +12,43 @@ ctrl+b  - prefix
 ## cli commands
 
 tmux ls		-- list sessions
+
 tmux attach	-- attach to last session
+
 tmux new -t <name> -- create new session name
 
+## shortcuts
 
 <prefix> d - detach from session
+
 <prefix> : - command mode
+
 <prefix> c - create new window 
+
 <prefix> n - next window
+
 <prefix> p - previous window
+
 <prefix> 0-9 - window number
+
 <prefix> w - windows select
+
 <prefix> , - rename window
+
 <prefix> & - close window   
 
 # panes
+
 <prefix> % - split vertically
+
 <prefix> " - split horizontally
+
 <prefix> o - cycle through open panes
+
 <prefix> q - display pane number
+
 <prefix> x - close pane
+
 <prefix> space - cycle pane layouts
 
 
@@ -35,7 +56,7 @@ tmux new -t <name> -- create new session name
 
 ## xpanes
 
-brew install xpanes
+```brew install xpanes```
 
 ### ping 9 servers
 
