@@ -1,10 +1,10 @@
-# term
+# term stuff
 
 CMD + {     - cycle tabs left
 
 CMD + }     - cycle tabs right 
 
-CMD + t     - new table
+CMD + t     - new term tab
 
 set -o vi    
 
@@ -16,23 +16,28 @@ ctrl+d  - disconnect
 
 # zsh
 
-install
+## install
 
 brew install zsh zsh-completions
 
-.zshrc
+## config
 
-# themes
+~/.zshrc
+
+# ohmyzsh themes
 
 https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 
-bria 
-
-ohmyzsh
-
+##
 git integration
 
-plugins
+## plugins
 
-ctrl+c
-output failure
+ -- my plugins just add and they get loaded
+
+plugins=(git vi-mode knife brew npm vagrant history-substring-search osx docker go golang tmux)                                                                                         
+# show exit 
+
+ctrl+c   -- note prompt changes color in theme
+
+great for visually seeing command failure
