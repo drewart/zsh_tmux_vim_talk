@@ -7,7 +7,7 @@
 
 Session -> Windows -> Pane
 
-ctrl+b  - prefix
+ctrl+b  - prefix shortcut
 
 ## cli commands
 
@@ -19,37 +19,37 @@ tmux new -t <name> -- create new session name
 
 ## shortcuts
 
-<prefix> d - detach from session
+[prefix] d - detach from session
 
-<prefix> : - command mode
+[prefix] : - command mode
 
-<prefix> c - create new window 
+[prefix] c - create new window 
 
-<prefix> n - next window
+[prefix] n - next window
 
-<prefix> p - previous window
+[prefix] p - previous window
 
-<prefix> 0-9 - window number
+[prefix] 0-9 - window number
 
-<prefix> w - windows select
+[prefix] w - windows select
 
-<prefix> , - rename window
+[prefix] , - rename window
 
-<prefix> & - close window   
+[prefix] & - close window   
 
 # panes
 
-<prefix> % - split vertically
+[prefix] % - split vertically
 
-<prefix> " - split horizontally
+[prefix] " - split horizontally
 
-<prefix> o - cycle through open panes
+[prefix] o - cycle through open panes
 
-<prefix> q - display pane number
+[prefix] q - display pane number
 
-<prefix> x - close pane
+[prefix] x - close pane
 
-<prefix> space - cycle pane layouts
+[prefix] space - cycle pane layouts
 
 
 # xpanes + tmux
