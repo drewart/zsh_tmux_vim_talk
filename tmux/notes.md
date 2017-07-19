@@ -1,15 +1,15 @@
 
-## term
+# tmux 
 
-session
-window
-pane
+Session -> Windows -> Pane
 
 ctrl+b  - prefix
 
-tmux ls - list sessions
-tmux attach  
-tmux new -t
+## cli commands
+
+tmux ls		-- list sessions
+tmux attach	-- attach to last session
+tmux new -t <name> -- create new session name
 
 
 <prefix> d - detach from session
@@ -33,11 +33,20 @@ tmux new -t
 
 # xpanes + tmux
 
+## xpanes
+
+brew install xpanes
+
+### ping 9 servers
+
+note: ctrl+c to cancel ctrl+d to close term 
 
 xpanes -c "ping {}" 192.168.0.{1..9}
 
 
 ssh admin@transcoder-agent-00.awsusw2.subsplash.net
+
+### ssh to 16 servers and control them all
 
 xpanes -l ev -c 'ssh admin@{}.awsusw2.subsplash.net' transcoder-agent-{00..16}
 

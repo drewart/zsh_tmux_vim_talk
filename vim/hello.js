@@ -1,26 +1,20 @@
 
-function hello()
+function hi()
 {
-    console.log("hello world!");
+    console.log("hi world!");
 }
 
-function goodbye(name)
+function goodbye()
 {
-    console.log("goodbye "+name+"!");
+    console.log("goodbye world!");
 }
-
-function question(q)
-{
-    console.log("question: "+q+"?");
-}
-
 
 
 function main()
 {
-    hello();
-    question("do you like to eat pizza");
-    goodbye("subsplash");
+    hi();
+    goodbye();
+
 }
 
 main();

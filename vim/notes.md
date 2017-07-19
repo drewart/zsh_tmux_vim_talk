@@ -19,8 +19,9 @@ o - open below line
 O - open edit above line
 
 d - delete
+x - delete char
 
-# exit
+# exit + io
 
 : - vim prompt 
 :w - write file
@@ -33,8 +34,8 @@ d - delete
 ## movements
 h j k l
 
-w - word
-2w - 2 words
+w - move 1 word
+2w - move 2 words
 
 e - end of word
 
@@ -48,15 +49,21 @@ ctrl+a - page up
 ctrl+E - scroll down
 ctrl+Y - scroll up
 M - center
-f{x} - forward
+fx - forward to first char x
+% - go to matching brace
+~ - change case
 
 
 ## trick edits vim-
 
-csw'
-ci'
+# quoting words vim-surround
+csw' - change surround word single quote
+csw" - change surround word quote
+ci'  - change in quote 'here'
 
 'foo'
+"bar"
+blah
 
 hello.js
 
@@ -64,8 +71,13 @@ hello.js
 
 V - visual line select
 v - visual section select
-Ctrl+v
+Ctrl+v - block visual select mode
 
+
+## search
+
+/ - forward search
+? - backward search
 
 
 

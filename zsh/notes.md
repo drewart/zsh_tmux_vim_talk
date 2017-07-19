@@ -6,10 +6,11 @@ CMD + } - cycle tabs right
 CMD + t - new table
 
 set -o vi
+    - search history ESC / ? n p  
 
 {00..15}
 
-ctrl+d
+ctrl+d - disconnect
 
 # zsh
 
