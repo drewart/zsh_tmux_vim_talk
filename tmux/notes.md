@@ -7,7 +7,7 @@
 
 Session -> Windows -> Pane
 
-ctrl+b  - prefix shortcut
+
 
 ## cli commands
 
@@ -18,6 +18,8 @@ tmux attach	-- attach to last session
 tmux new -t <name> -- create new session name
 
 ## shortcuts
+
+ctrl+b  - prefix shortcut
 
 [prefix] d - detach from session
 
