@@ -11,11 +11,13 @@ Session -> Windows -> Pane
 
 ## cli commands
 
-tmux ls		-- list sessions
+```tmux ls		  # list sessions```
 
-tmux attach	-- attach to last session
+```tmux attach	# attach to last session```
 
-tmux new -t <name> -- create new session name
+```tmux attach -t bar # attach to bar session```
+
+```tmux new-session -s foo # create new session named foo```
 
 ## shortcuts
 
@@ -72,13 +74,3 @@ ssh admin@transcoder-agent-00.awsusw2.subsplash.net
 ### ssh to 16 servers and control them all
 
 ```xpanes -l ev -c 'ssh admin@{}.awsusw2.subsplash.net' transcoder-agent-{00..16}```
-
-
-
-
-
-
-
-
-
-
